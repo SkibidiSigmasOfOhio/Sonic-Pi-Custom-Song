@@ -51,8 +51,8 @@ live_loop :anthem do
     play :a5
     sleep 0.5
   end
-  sample :ambi_dark_woosh
+  sample :ambi_dark_woosh, amp: 8
   stop
 end
-sleep 16.5
-sample "C:/Users/alberto_sanchez/Downloads/choir.wav"
+sleep 18.4
+sample "C:/Users/alberto_sanchez/Downloads/choir.wav", amp: 6
