@@ -3,6 +3,40 @@ use_synth :piano
 
 choir = sample
 
+play :fs3, amp: 0.5
+play :d4, amp: 0.5
+sleep 1
+
+play :fs3, amp: 1
+play :d4, amp: 1
+sleep 1
+
+play :fs3, amp: 1.5
+play :d4, amp: 1.5
+sleep 1
+
+play :fs3, amp: 2
+play :d4, amp: 2
+sleep 1
+
+play :fs3, amp: 2.5
+play :d4, amp: 2.5
+sleep 1
+
+play :fs3, amp: 3
+play :d4, amp: 3
+sleep 1
+
+play :fs3, amp: 3.5
+play :d4, amp: 3.5
+sleep 1
+
+play :fs3, amp: 4
+play :d4, amp: 4
+sleep 1
+
+
+
 live_loop :bass do
   6.times do
     play :fs3
@@ -55,4 +89,5 @@ live_loop :anthem do
   stop
 end
 sleep 18.4
+
 sample "C:/Users/alberto_sanchez/Downloads/choir.wav", amp: 6
