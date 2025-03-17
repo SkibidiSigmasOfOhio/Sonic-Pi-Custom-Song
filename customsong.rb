@@ -91,3 +91,5 @@ end
 sleep 18.4
 
 sample "C:/Users/alberto_sanchez/Downloads/choir.wav", amp: 6
+sleep 125
+sample "C:/Users/alberto_sanchez/Downloads/Hala Madrid ... y nada más.wav", amp: 6
